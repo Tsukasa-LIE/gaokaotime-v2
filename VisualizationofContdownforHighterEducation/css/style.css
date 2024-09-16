@@ -8,7 +8,7 @@
 
 body
 {
-    background: #00000000 url(bg.jpg);
+    background-image: url(../img/background.png);
     background-attachment: fixed;
     background-blend-mode: hard-light;
 }
@@ -25,7 +25,7 @@ body
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.438),
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0),
                 0 0 0 100px rgba(0, 0, 0, 0);
 }
 
@@ -33,7 +33,7 @@ body
     text-align: center;
     font-size: 10em;
     line-height: 0.7em;
-    color: #333;
+    color: #FF6EC7;
     margin-top: -80px;
 }
 
